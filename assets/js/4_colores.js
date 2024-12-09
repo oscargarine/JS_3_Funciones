@@ -26,7 +26,7 @@ div_cuatro.addEventListener("click", () => {
 })
 
 // capturamos el elemento "key"
-const div_key = document.querySelector(".key")
+const div_key = document.querySelector("#key")
 
 document.addEventListener("keydown", function(event){
   if (event.key === 'a'){
